@@ -1,0 +1,37 @@
+Evaluating Naive Bayes on training data set...
+[1 0 0 ... 0 1 0]
+[1 1 0 ... 0 1 0]
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99     21301
+           1       0.99      0.97      0.98     12905
+
+    accuracy                           0.99     34206
+   macro avg       0.99      0.98      0.98     34206
+weighted avg       0.99      0.99      0.99     34206
+
+Confusion Matrix:
+ [[21123   178]
+ [  328 12577]]
+
+Accuracy:
+ 0.9852072735777349
+
+Evaluating Naive Bayes on test data set...
+[0 1 0 ... 0 1 0]
+[0 1 0 ... 0 1 0]
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98      5302
+           1       0.97      0.96      0.97      3250
+
+    accuracy                           0.98      8552
+   macro avg       0.98      0.97      0.97      8552
+weighted avg       0.98      0.98      0.98      8552
+
+Confusion Matrix:
+ [[5213   89]
+ [ 119 3131]]
+
+Accuracy:
+ 0.9756782039289055
